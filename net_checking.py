@@ -20,7 +20,7 @@ while True:
         print(ip_addr)
     elif num_serv == 2:
         domain = input("veuillez entrer votre adresse IPV4 =>")
-        dn = socket.gethostbyaddr(domain)
+        dn = socket.gethostbyaddr(str(domain))
         print(dn)
     elif num_serv == 3:
         name_port=int(input("veuillez entrer le numero du port =>"))
