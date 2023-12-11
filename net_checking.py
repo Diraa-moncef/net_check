@@ -10,7 +10,7 @@ print("|#|        |##|##|##|   |###|      |#|        |###|/##/")
 print("|#|        |##|  |##|   |#|        |#|        |###|\##\ ")
 print("|#|        |##|  |##|   |#|        |#|        |###| \##\ ")
 print("|######|   |##|  |##|   |######|   |######|   |###|  \##\ ")
-print("1) trouver une adresse IP a partir du nom de domaine\n2) trouver un nom de domaine apartir d'une adresse IP\n3) trouver le nom du port a partir de sonnumero\n4)trouver le numero du port a partir de son nom\n\t!!!!!!!!!!vous devez entrez le numero du service qui vous convient!!!!!!!!!!")
+print("1) trouver une adresse IP a partir du nom de domaine\n2) trouver un nom de domaine apartir d'une adresse IP\n3) trouver le nom du port a partir de son numero\n4)trouver le numero du port a partir de son nom\n\t!!!!!!!!!!vous devez entrez le numero du service qui vous convient!!!!!!!!!!")
 import socket
 while True:
     num_serv=int(input("veuillez entrer le numero d'operation =>"))
